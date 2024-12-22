@@ -12,6 +12,3 @@ package Variables;
             System.out.println("*/n**");
         }
     }
-    
-
-}
