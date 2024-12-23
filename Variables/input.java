@@ -1,27 +1,19 @@
 package Variables;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class input {
     public static void main(String[] args) {
-        // Single Scanner object
+        //Input
         Scanner sc = new Scanner(System.in);
+        String name = sc.nextLine();
+        System.out.println(name);
 
-        // Read name
-        System.out.println("Enter your name:");
-        String name = sc.nextLine(); // Use nextLine() to read the full line
-        System.out.println("Hello, " + name);
-
-        // Read two integers
-        System.out.println("Enter two integers:");
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-
-        // Calculate and print the sum
+        System.out.println("Enter the first number: ");
+        int a = Integer.parseInt(sc.nextLine());
+        System.out.println("Enter the second number: ");
+        int b = Integer.parseInt(sc.nextLine());
         int sum = a + b;
-        System.out.println("Sum: " + sum);
-
-        // Close Scanner
-        sc.close();
+        System.out.println("The sum is: " + sum);
     }
 }
