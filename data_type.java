@@ -17,4 +17,3 @@ public class data_type {
         System.out.println(as);
     }
 }
-
