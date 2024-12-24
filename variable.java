@@ -1,6 +1,4 @@
-package Variables;
-
-    public class variable {
+public class variable {
         public static void main(String[] args) {
             //Variables
             String name = "Raju";
