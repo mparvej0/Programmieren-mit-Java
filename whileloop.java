@@ -1,4 +1,4 @@
-package Loops;public class whileloop {
+public class whileloop {
     public static void main(String[] args) {
         // while loop
         int i = 0;
