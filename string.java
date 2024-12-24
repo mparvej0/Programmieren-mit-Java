@@ -1,6 +1,9 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class string {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         // Strings
         Scanner sc = new Scanner(System.in);
@@ -23,5 +26,8 @@ public class string {
         } else {
             System.out.println("Strings are not equal");
         }
+        
     }
-}
+
+    }
+
