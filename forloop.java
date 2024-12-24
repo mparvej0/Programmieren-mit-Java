@@ -1,4 +1,4 @@
-package Loops;public class forloop {
+public class forloop {
     public static void main(String[] args) {
         //for loop
         for(int counter = 0; counter < 5; counter = counter + 1) {
