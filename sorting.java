@@ -16,6 +16,21 @@ public class sorting {
                 arr[j+1] = temp;
             }
         }
+
+        // Selection Sort
+        for(int i=0; i<arr.length-1; i++) {
+            int samllest = i;
+            for(int j=i+1; j<arr.length; j++) {
+                if(arr[samllest] > arr[j]) {
+                    samllest = j;
+                }
+            }
+            int temp = arr[samllest];
+            arr[samllest] = arr[i];
+            arr[i] = temp;
+        }
+
         printArray(arr);
+        
     }
 }
